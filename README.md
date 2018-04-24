@@ -3,7 +3,7 @@
 Using data from coin market cap and poloniex, derive the feasible/unique arbitrage "paths" that begin and end with the given symbol
 
 Usage: 
-- git clone git@github.com:rjaym/symbols.git
+- git clone git@github.com:rjaym/symbol_paths.git
 - cd ./symbols
 - vim ./src/main.rs (Edit the depth & desired symbol you would like to see paths for)
 - cargo build
