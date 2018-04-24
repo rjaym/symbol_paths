@@ -1,6 +1,6 @@
-# symbols
+# symbol_paths
 
-Using data from coin market cap and poloniex, derive the feasible arbitrage "paths" that begin and end with the given symbol
+Using data from coin market cap and poloniex, derive the feasible/unique arbitrage "paths" that begin and end with the given symbol
 
 Usage: 
 - git clone git@github.com:rjaym/symbols.git
