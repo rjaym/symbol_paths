@@ -1,0 +1,25 @@
+[package]
+name = "symbol_paths"
+version = "0.1.0"
+authors = ["jay@ns.io"]
+
+[dependencies]
+hyper = "0.10.10"
+hyper-native-tls = "0.2.2"
+
+serde = "1.0.2"
+serde_derive = "1.0.2"
+serde_json = "1.0.2"
+
+num = "0.1.37"
+hmac = "0.4.2"
+sha2 = "0.6.0"
+
+base64 = "0.6.0"
+
+rand = "0.3"
+
+rust-crypto = "^0.2"
+
+[profile.release]
+lto = true
